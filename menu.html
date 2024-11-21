@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-----ICON ----->
+  <link rel="shortcut icon" href="./image/logo.png">
+
+  <!-- ------------ style link ------------ -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ------------ bootstrap link ------------ -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+  <!----------WIPER JS ---------->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!---------- Link Swiper's CSS ---------->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+  <!---------- font awesome ---------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+  <title>Food</title>
+</head>
+
+<body>
+  <!-------------- Top header -------------->
+  <div class="header">
+    <a>Hungry for More? Scroll Down for Tasty Content - 30% OFF</a>
+  </div>
+
+  <!-------------- Navbar -------------->
+  <nav class="navbar navbar-expand-lg" id="home">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./image/logo.png" alt="Logo" width="90" height="">
+      </a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation bg-dark">
+        <span class="navbar-toggler-icon bg-warning"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#fast-food">Fast food</a></li>
+              <li><a class="dropdown-item" href="#desi-food">Desi</a></li>
+              <li><a class="dropdown-item" href="#sweets">Sweets</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#drinks">Drinks</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-warning" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-------------- menu -------------->
+  <section id="menu" class="menu">
+    <div class="heading">
+      <h1>Our <span>Menu</span> </h1>
+    </div>
+
+    <!-- <============ Fast-food ============>  -->
+    <div class="menu-container" id="fast-food">
+
+      <!-- <============ box-1 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/buger.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Burger</h3>
+          <p>Juicy, perfectly grilled, topped with fresh lettuce, pickles, and a splash of our signature sauce, all
+            nestled in a toasted bun</p>
+          <div class="price">
+            <p>Rs 300</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-2 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/Hot_dog.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Hot Dog</h3>
+          <p>Classic grilled hot dogs served in fresh, topped with a generous drizzle of tangy mustard and ketchup.
+            Perfect for a quick snack or a hearty meal</p>
+          <div class="price">
+            <p>Rs 250</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-3 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/lasagna.webp" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Lasagna</h3>
+          <p>Layers of rich, savory meat sauce and perfectly melted mozzarella cheese. This lasagna is baked to
+            perfection for a cheesy bite.</p>
+          <div class="price">
+            <p>Rs 400</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-4 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/pizza.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Pizza</h3>
+          <p>A crust topped with tomato sauce, melted cheese from sausage to colorful veggies. Every slice offers the
+            perfect balance of cheesy flavorful bites</p>
+          <div class="price">
+            <p>Rs 300</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+    </div>
+
+    <!-- <============ desi-food ============>  -->
+    <div class="menu-container" id="desi-food">
+
+      <!-- <============ box-1 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/karhai.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Karhai</h3>
+          <p>Tender pieces of chicken (or mutton) simmered in a rich. Garnished with fresh cilantro and green chilies,
+            delivering a burst of authentic taste in every bite</p>
+          <div class="price">
+            <p>Rs 300</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-2 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/biryani.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Biryani</h3>
+          <p>Fragrant basmati rice layered with tender meat and aromatic spices, creating a deliciously flavorful
+            biryani every bite</p>
+          <div class="price">
+            <p>Rs 250</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-3 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/korma.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Korma</h3>
+          <p>Succulent pieces of meat cooked in a creamy, spiced yogurt-based gravy, offering a rich and flavorful taste
+            in every bite.</p>
+          <div class="price">
+            <p>Rs 400</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-4 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/white karhai.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>White Karhai</h3>
+          <p>Delicate chicken pieces cooked in a creamy, yogurt-based sauce with mild spices, creating a rich and
+            velvety white karhai full of subtle flavors.</p>
+          <div class="price">
+            <p>Rs 350</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+    </div>
+
+    <!-- <============ sweets ============>  -->
+    <div class="menu-container" id="sweets">
+
+      <!-- <============ box-1 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/cake.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Cake</h3>
+          <p>Moist and fluffy orange cake infused with zesty citrus flavors, topped with a sweet orange glaze for a
+            refreshing dessert.</p>
+          <div class="price">
+            <p>Rs 300</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-2 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/chocolate.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Chocalate</h3>
+          <p>Rich and creamy vanilla chocolate, combining smooth vanilla notes with decadent chocolate for a delightful
+            treat...</p>
+          <div class="price">
+            <p>Rs 250</p>
+          </div>
+        </div>
+         <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-3 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/ice_cream.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Ice-Cream</h3>
+          <p>Refreshing strawberry ice, made with real strawberries, delivering a burst of fruity sweetness in every
+            deliciouse cool scoop.</p>
+          <div class="price">
+            <p>Rs 400</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-4 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/gallary_6.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Pie</h3>
+          <p>Decadent chocolate pie topped with a vibrant assortment of fresh fruits, creating a perfect blend of rich
+            and refreshing flavors.</p>
+          <div class="price">
+            <p>Rs 500</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+    </div>
+
+    <!-- <============ drinks ============>  -->
+    <div class="menu-container" id="drinks">
+
+      <!-- <============ box-1 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/juse.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Juices</h3>
+          <p>Refreshing juice bursting with the natural sweetness of ripe fruits, perfect for quenching your thirst any
+            time of the day.</p>
+          <div class="price">
+            <p>Rs 250</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-2 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/cold-drink.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Cold-drinks</h3>
+          <p>Chilled and effervescent, this is the ultimate refreshment.it combines fizzy sweetness with hint of citrus
+            for a good experience.</p>
+          <div class="price">
+            <p>Rs 150</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-3 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/chocolate_Drink.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Milk-shakes</h3>
+          <p>Creamy and thick milkshakes, blended with your favorite flavors, sweet indulgence ,rich ice cream with milk
+            for a deliciously thick treat. </p>
+          <div class="price">
+            <p>Rs 300</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+      <!-- <============ box-4 ============>  -->
+      <div class="box">
+        <div class="img">
+          <img src="./image/mist.jpg" alt="img">
+        </div>
+        <div class="menu-content">
+          <h3>Mint Lamonade</h3>
+          <p>Refreshing mint lemonade, combining zesty lemon and other juice and fragrant mint for a cool,
+            thirst-quenching beverage.</p>
+          <div class="price">
+            <p>Rs 230</p>
+          </div>
+        </div>
+        <a href="/menu.html">Add to Cart</a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+<!-------------- footer -------------->
+<section id="footer">
+    <footer>
+      <div class="logo">
+        <img src="./image/logo.png" alt="">
+        <p>Trustable Restaurant</p>
+      </div>
+      <div class="links">
+        <div class="links-1">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#review">Review</a>
+          <a href="#contact">contact</a>
+        </div>
+
+        <div class="links-2">
+          <a href="#">Services</a>
+          <a href="#">ThemeTweak</a>
+        </div>
+
+        <div class="links-3">
+          <a href="#">Pre-sales FAQs</a>
+          <a href="#">Support</a>
+          <a href="#">ShowCase</a>
+        </div>
+
+        <div class="links-4">
+          <a href="#">Daraz</a>
+          <a href="#">TikTok</a>
+          <a href="#">PicsArt</a>
+          <a href="#">Snapchat</a>
+        </div>
+
+        <div class="adress">
+          <h3>Adresses</h3>
+          <p>Beach Avenue, Phase 8, DHA, Do Darya, Clifton, Karachi, Sindh, Pakistan.</p>
+          <p> Plot No. 5/1, Old Clifton Road, Boat Basin, Block 5, Clifton, Karachi, Sindh, Pakistan.</p>
+        </div>
+      </div>
+    
+
+    </footer>
+
+  </section>
+  <div class="last-line">
+    <p>Created by  <span>Aqsa Sohail</span>| all right reserved</p>
+  </div>
+
+
+
+
+
+  <!----- BOOTSTRAP 5 ----->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!----- JS ----->
+  <script src="/java.js"></script>
+
+</body>
+
+</html>
